@@ -1,0 +1,84 @@
+2024-09-01 15:07:49,975 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-09-01 15:07:53,058 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 4741mS.
+2024-09-01 15:07:53,059 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-09-01 15:07:53,072 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-09-01 15:12:37,239 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-09-01 15:12:41,240 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 254544632 Bytes (833617920)
+2024-09-01 15:12:42,442 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 278139640 Bytes (833617920)
+2024-09-01 15:12:44,343 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 317459192 Bytes (833617920)
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CAN
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2S
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-09-01 15:12:44,655 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_HOST
+2024-09-01 15:12:44,656 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-09-01 15:12:44,657 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-09-01 15:12:44,661 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-09-01 15:12:44,662 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-09-01 15:12:44,830 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\license.tmp_save
+2024-09-01 15:12:44,914 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\license.tmp
+2024-09-01 15:12:44,976 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\gpio.c_save
+2024-09-01 15:12:45,092 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\gpio.c
+2024-09-01 15:12:45,109 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\gpio.h_save
+2024-09-01 15:12:45,201 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\gpio.h
+2024-09-01 15:12:45,283 [WARN] IPConfigManager:2946 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-09-01 15:12:45,296 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-09-01 15:12:45,404 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-09-01 15:12:45,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-09-01 15:12:45,493 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-09-01 15:12:45,498 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-09-01 15:12:45,589 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-09-01 15:12:45,594 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-09-01 15:12:45,714 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-09-01 15:12:46,313 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\can.c_save
+2024-09-01 15:12:46,474 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\can.c
+2024-09-01 15:12:46,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\can.h_save
+2024-09-01 15:12:46,556 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\can.h
+2024-09-01 15:12:46,571 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\i2c.c_save
+2024-09-01 15:12:46,670 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\i2c.c
+2024-09-01 15:12:46,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\i2c.h_save
+2024-09-01 15:12:46,792 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\i2c.h
+2024-09-01 15:12:46,813 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\i2s.c_save
+2024-09-01 15:12:46,928 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\i2s.c
+2024-09-01 15:12:46,934 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\i2s.h_save
+2024-09-01 15:12:46,991 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\i2s.h
+2024-09-01 15:12:47,003 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\spi.c_save
+2024-09-01 15:12:47,096 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\spi.c
+2024-09-01 15:12:47,102 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\spi.h_save
+2024-09-01 15:12:47,155 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\spi.h
+2024-09-01 15:12:47,169 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\App\usb_host.c_save
+2024-09-01 15:12:47,235 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\App\usb_host.c
+2024-09-01 15:12:47,241 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\App\usb_host.h_save
+2024-09-01 15:12:47,328 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\App\usb_host.h
+2024-09-01 15:12:47,338 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_conf.h_save
+2024-09-01 15:12:47,404 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_conf.h
+2024-09-01 15:12:47,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_conf.c_save
+2024-09-01 15:12:47,480 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_conf.c
+2024-09-01 15:12:47,487 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_platform.c_save
+2024-09-01 15:12:47,548 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_platform.c
+2024-09-01 15:12:47,554 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_platform.h_save
+2024-09-01 15:12:47,615 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\USB_HOST\Target\usbh_platform.h
+2024-09-01 15:12:47,633 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\stm32f4xx_it.c_save
+2024-09-01 15:12:47,710 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\stm32f4xx_it.c
+2024-09-01 15:12:47,717 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\stm32f4xx_it.h_save
+2024-09-01 15:12:47,776 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\stm32f4xx_it.h
+2024-09-01 15:12:47,793 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-01 15:12:47,880 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\stm32f4xx_hal_msp.c
+2024-09-01 15:12:47,884 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\system.tmp_save
+2024-09-01 15:12:47,934 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\MXTmpFiles\system.tmp
+2024-09-01 15:12:47,945 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-01 15:12:48,052 [INFO] CodeEngine:335 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-01 15:12:48,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\main.h_save
+2024-09-01 15:12:48,187 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Inc\main.h
+2024-09-01 15:12:48,196 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\main.c_save
+2024-09-01 15:12:48,373 [INFO] CodeEngine:279 - Generated code: C:\Users\s\Documents\GitHub\stm32_code\f4disc1_011_bxcan\Core\Src\main.c
+2024-09-01 15:12:48,979 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 229mS.
+2024-09-01 15:12:48,986 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-09-01 15:12:49,169 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-09-01 15:12:52,110 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 3124mS.
+2024-09-01 15:12:52,111 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-09-01 15:12:52,119 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

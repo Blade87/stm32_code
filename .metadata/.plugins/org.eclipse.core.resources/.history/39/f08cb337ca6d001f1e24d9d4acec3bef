@@ -1,0 +1,23 @@
+#include "alt_main.h"
+
+
+int alt_main()
+{
+	CAN_TxHeaderTypeDef can_tx_header;
+	can_tx_header.IDE   = CAN_ID_STD;
+	can_tx_header.StdId = 0x65D;
+	can_tx_header.RTR   = CAN_RTR_DATA;
+	can_tx_header.DLC   = 5;
+
+	uint8_t can_message[5] = {'H', 'E', 'L', 'L', 'o'};
+
+	uint32_t can_tx_mailbox;
+
+	HAL_CAN_Start(&hcan1);
+
+	while(1)
+	{
+
+	}
+
+}

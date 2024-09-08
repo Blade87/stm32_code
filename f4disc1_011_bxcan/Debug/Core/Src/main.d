@@ -33,7 +33,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h ../Core/Inc/can.h \
  ../Core/Inc/main.h ../Core/Inc/i2c.h ../Core/Inc/i2s.h ../Core/Inc/spi.h \
- ../USB_HOST/App/usb_host.h ../Core/Inc/gpio.h
+ ../USB_HOST/App/usb_host.h ../Core/Inc/gpio.h ../Core/Inc/alt_main.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -75,3 +75,4 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/spi.h:
 ../USB_HOST/App/usb_host.h:
 ../Core/Inc/gpio.h:
+../Core/Inc/alt_main.h:

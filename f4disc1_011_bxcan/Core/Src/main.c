@@ -27,7 +27,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "alt_main.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -98,17 +98,7 @@ int main(void)
   MX_USB_HOST_Init();
   MX_CAN1_Init();
   /* USER CODE BEGIN 2 */
-  CAN_TxHeaderTypeDef can_tx_header;
-  can_tx_header.IDE   = CAN_ID_STD;
-  can_tx_header.StdId = 0x65D;
-  can_tx_header.RTR   = CAN_RTR_DATA;
-  can_tx_header.DLC   = 5;
 
-  uint8_t can_message[5] = {'H', 'E', 'L', 'L', 'o'};
-
-  uint32_t can_tx_mailbox;
-
-  HAL_CAN_Start(&hcan1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,12 +109,7 @@ int main(void)
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
-    if (HAL_CAN_AddTxMessage(&hcan1, &can_tx_header, can_message, &can_tx_mailbox) != HAL_OK)
-    {
-    	Error_Handler();
-    }
-    while (HAL_CAN_IsTxMessagePending(&hcan1, can_tx_mailbox));
-    uint8_t f_successful = 1;
+    alt_main();
   }
   /* USER CODE END 3 */
 }

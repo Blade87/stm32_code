@@ -1,0 +1,28 @@
+/* main.c */
+
+/******************** Library *********************/
+#include "stm32f4xx_hal.h"
+#include "main.h"
+
+/******************** Prototype *******************/
+void SystemClockConfig(void);
+/**************************************************
+ * @fn       main
+ * @brief
+ */
+int main(void)
+{
+	HAL_Init();
+	SystemClockConfig();
+
+	return 0;
+}
+
+/**************************************************
+ * @fn      SystemClockConfig
+ * @brief
+ */
+void SystemClockConfig(void)
+{
+
+}
